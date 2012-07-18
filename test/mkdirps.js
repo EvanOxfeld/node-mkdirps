@@ -20,7 +20,7 @@ test('multiple mkdirps', function(t) {
       t.fail(err);
     }
 
-    async.forEach(files, testDir, function(err){
+    async.forEach(files, testDir, function(err) {
       t.end();
     });
 
