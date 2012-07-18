@@ -1,0 +1,26 @@
+{
+  "name": "mkdirps",
+  "version": "0.0.0",
+  "description": "Make multiple directories (each recursively using mkdir -p) all in parallel",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EvanOxfeld/node-mkdirps.git"
+  },
+  "keywords": [
+    "mkdir",
+    "directory"
+  ],
+  "author": "Evan Oxfeld",
+  "license": "MIT",
+  "dependencies": {
+    "async": "~0.1.22",
+    "mkdirp": "~0.3.3"
+  },
+  "devDependencies": {
+    "tap": "~0.2.5"
+  }
+}
